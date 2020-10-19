@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -9,16 +8,21 @@
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Docker, Linux, and Containerization - IS601</title>
+    <title>What is Containerization?</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/pricing.css" rel="stylesheet">
 </head>
 
 <body>
 
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="index.html">Docker, Linux, and Containerization</a></h5>
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="index.html">Home</a></h5>
     <nav class="my-2 my-md-0 mr-md-3">
         <ul class="nav nav-pills">
           <li class="nav-item">
@@ -54,13 +58,24 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Docker, Linux, and Containerization</h1>
-
+    <h1 class="display-4">What is Containerization?</h1>
 </div>
 
 
-
 <div class="container">
+    <p>
+      It is basically an enhanced variant of Virtualization at application level. It allows multiple isolated user space istances to reun on a single kernel. These instances are referred as containers in technical terms. These Containers, provide a standard method of packaging things like, an application’s code, runtime-systems tools, system libraries and configuration into a single instance. Containers share one single kernel (essentially an OS), which is usually installed on the hardware.
+    </p>
+
+
+    <p>
+      Containerization is tailor made for any application that requires to be changed occasionally and be re-deployed frequently. It is best suited on Applications using Micro-services Architecture like as Alibaba provides container services for Kubernetes.
+    </p>
+
+    <p>
+      There’s another term being referred as container orchestration. It refers to organization of containers to support applications which takes help from container orchestration tools like Kubernetes, Docker Swarm and LXC.
+    </p>
+
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
           <div class="col-12 col-md">
@@ -88,7 +103,6 @@
         </div>
     </footer>
 </div>
-
 
 <!-- jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
