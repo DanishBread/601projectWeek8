@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>What is Virtualization?</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/pricing.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="index.html">Home</a></h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Virtualization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Containerization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comparison</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tutorials</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="">How to setup a web server using Docker</a>
+              <a class="dropdown-item" href="">Basic Linux commands for Docker</a>
+              <a class="dropdown-item" href="">How to connect Docker with Pycharm </a>
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="about.html">About</a>
+              <a class="dropdown-item" href="setup.html">Set-up</a>
+              <a class="dropdown-item" href="team.html">Team</a>
+              <a class="dropdown-item" href="https://github.com/Woffee/IS601-Docker-Website">Fork me</a>
+            </div>
+          </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">What is Virtualization?</h1>
+</div>
+<div class="">
+  Virtualization
+
+
+
+<div class="">
+The term Virtualization refers to a technology enabeling us to create (essentially IT) services which are bound to hardware, by enabeling us to exploit a physical machine’s full resources and capacity among multiple users or environments. More practically, if we have 3 physical servers each with it’s own individual purpose. For instance, considering first one, a mail server, next one web server and the third an internal legacy applications. Assuming each of them is being used about 30% of it’s capacity wich is simply a fraction of their running potential. But considering the fact that, Legacy applications are important to our applications, we have to keep them and the third servers hosts. Though it sure is easier to run one task on a seperate OS using just 1 server, but not so easy for a server to have multiple brains.
+</div>
+<img class="title-image" src="images/virt1.jpeg" alt="iphone-mockup">
+<div class="">
+This is when Virtualization comes in practice. With virtualization, we can split the mail server into 2 unique oneshandeling indipendent tasks in order to migrate legacy applications. Basically, we're just using the same hardware more efficiently.
+</div>
+<img class="title-image" src="images/virt1.jpeg" alt="iphone-mockup">
+<div class="">
+In a similar fashion, we can also manage to split the first (mail) server to handel the leftover task (in the web server). Starting to increase it’s usage from 30, to 60 and later to 90% of its CPU usage. After achieving it, the remaining 2 servers may be reused for something else or retired together (to cut down unnecessary costs like of cooling, maintenance or just to reduce pollutions).
+</div>
+Ref: https://www.redhat.com/en/topics/virtualization/what-is-virtualization
+</div>
+
+
+<div class="container">
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+              <img src="https://www.njit.edu/sites/all/themes/corporate2018dev/logo.svg" style="background-color: #cc0000">
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>Pages</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="index.html">Home</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="setup.html">Set-up</a></li>
+                <li><a class="text-muted" href="about.html">About</a></li>
+                <li><a class="text-muted" href="team.html">Team</a></li>
+                <li><a class="text-muted" href="https://github.com/Woffee/IS601-Docker-Website">Github for this website</a></li>
+
+            </ul>
+            <small class="d-block mb-3 text-muted">Copyright &copy; 2020</small>
+          </div>
+        </div>
+    </footer>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./assets/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="./assets/jquery-slim.min.js"><\/script>')</script>
+<script src="./assets/popper.min.js"></script>
+<script src="./assets/bootstrap.min.js"></script>
+<script src="./assets/holder.min.js"></script>
+<script>
+    Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+    });
+</script>
+
+
+<script>mendeleyWebImporter = {
+    open: function () {
+        window.postMessage('0.23416584132630724', 'https://getbootstrap.com')
+    }
+}</script>
+</body>
+</html>
