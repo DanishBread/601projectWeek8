@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>What is Virtualization?</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./assets/pricing.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="index.html">Home</a></h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Virtualization</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Containerization</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comparison</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tutorials</a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="">How to setup a web server using Docker</a>
+            <a class="dropdown-item" href="">Basic Linux commands for Docker</a>
+            <a class="dropdown-item" href="">How to connect Docker with Pycharm </a>
+          </div>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="setup.html">Set-up</a>
+            <a class="dropdown-item" href="team.html">Team</a>
+            <a class="dropdown-item" href="https://github.com/Woffee/IS601-Docker-Website">Fork me</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">How to setup a Web Server using Docker</h1>
+  </div>
+  <div class="">
+    Virtualization
+
+
+  </div>
+  <div class="">
+
+    After the installation, we can verify our progress by simply changing the version of docker, using command “docker —version”.
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws1.png">
+  </div>
+  <div class="">
+    or test it by running an initiative command, “docker run hello-world”.
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws2.png">
+  </div>
+  <div class="">
+    2- Pulling an Ubuntu image from the docker hub.
+
+    After logging in to docker, we can run “docker pull ubuntu” in the terminal.
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws3.png">
+
+  </div>
+  <div class=""> And then, checking the existing docker images using “docker pull ubuntu”
+
+    3- Commiting changes to docker images with example
+
+    Parameter “-it” from docker brings you interactive shell to communicate with VM
+
+    Run the Ubuntu image to start a Docker container, then log into this Ubuntu container
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws4.png">
+  </div>
+  <div class="">
+    4- Installing Apps in the container
+
+    Update system using“​apt-getupdate​
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws5.png">
+  </div>
+  <div class="">
+    Installing Apache 3:
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws6.png">
+  </div>
+  <div class="">
+    Installing Vim Editor.
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws7.png">
+  </div>
+  <div class="">
+
+    Commit container to create a new Docker image.
+  </div>
+  <div class="">
+    1) Check the container using “​docker ps -a​”
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws8.png">
+  </div>
+  <div class="">
+    2)Check the new images using “docker images”.
+  </div>
+  <div class="">
+    <img class="title-image" src="images/ws10.png">
+  </div>
+
+
+
+  <div class="container">
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="https://www.njit.edu/sites/all/themes/corporate2018dev/logo.svg" style="background-color: #cc0000">
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>Pages</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="index.html">Home</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="setup.html">Set-up</a></li>
+            <li><a class="text-muted" href="about.html">About</a></li>
+            <li><a class="text-muted" href="team.html">Team</a></li>
+            <li><a class="text-muted" href="https://github.com/Woffee/IS601-Docker-Website">Github for this website</a></li>
+
+          </ul>
+          <small class="d-block mb-3 text-muted">Copyright &copy; 2020</small>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./assets/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="./assets/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="./assets/popper.min.js"></script>
+  <script src="./assets/bootstrap.min.js"></script>
+  <script src="./assets/holder.min.js"></script>
+  <script>
+    Holder.addTheme('thumb', {
+      bg: '#55595c',
+      fg: '#eceeef',
+      text: 'Thumbnail'
+    });
+  </script>
+
+
+  <script>
+    mendeleyWebImporter = {
+      open: function() {
+        window.postMessage('0.23416584132630724', 'https://getbootstrap.com')
+      }
+    }
+  </script>
+</body>
+
+</html>
