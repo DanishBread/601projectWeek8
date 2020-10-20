@@ -58,15 +58,82 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4">Essential Linux commands</h1>
+  <h1 class="display-4">Basic Linux commands for Docker</h1>
 
 
 </div>
 
 
 <div class="container">
+
+  <div class="text-center shadow-none p-3 mb-5 bg-light rounded">
+    <img src="images/docker_cmd.png" class="img-fluid" alt="Responsive image">
+  </div>
+
+  <h2>Docker commands</h2>
+
+  <table class="table table-bordered">
+    <thead>
+    <tr>
+      <th scope="col" style="width: 16.66%">Command</th>
+      <th scope="col">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row"><code>docker --version</code></th>
+      <td>First important task while working Docker containers is to know your Docker version, Use below command to know
+        your docker version
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><code>docker info</code></th>
+      <td><code>docker info</code> command is used to view the system wide information like Docker’s root Directory, OS
+        version, Kernel Version, Docker Version, RAM, CPU and Docker Registry.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><code>docker search</code></th>
+      <td>With help of <code>docker search</code> command we search the docker container images in registry server from
+        the terminal, Let’s assume I want to search latest debian Docker Images. e.g. <code>docker search debian</code>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><code>docker pull</code></th>
+      <td>Pull an image from Dockerhub. e.g. <code>docker pull ubuntu</code></td>
+    </tr>
+
+    <tr>
+      <th scope="row"><code>docker images</code></th>
+      <td>List all Downloaded Docker Container Images</td>
+    </tr>
+
+    <tr>
+      <th scope="row"><code>docker run</code></th>
+      <td>Launching a container with <code>docker run</code> command</td>
+    </tr>
+    <tr>
+      <th scope="row"><code>docker ps</code></th>
+      <td>List Containers with <code>docker ps</code> command</td>
+    </tr>
+
+    <tr>
+      <th scope="row"><code>docker commit</code></th>
+      <td>Create a new Docker image using <code>​docker commit</code></td>
+    </tr>
+    <tr>
+      <th scope="row"><code>docker build</code></th>
+      <td>With <code>docker build</code> command we can build our own docker image with DockerFile</td>
+    </tr>
+
+
+    </tbody>
+  </table>
+
+  <h2>Other Linux commands</h2>
+
   <code>
-    Alias
+    alias
   </code>
 
   <p class="">
