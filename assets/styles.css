@@ -14,14 +14,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p{
-  color: #8f8f8f;
+  color: #ac4b1c;
 }
 .icon{
-  color:#ef8172;
+  color:#ffd57e;
   margin-bottom: 1rem;
 }
 .icon:hover{
-  color:#ff4c68;
+  color:#ffefa0;
 }
 .download-button{
   margin:5% 3% 5% 0;
@@ -46,8 +46,8 @@ p{
 }
 /* Title Section */
 .title-image{
-  width:60%;
-  transform: rotate(25deg);
+  width:80%;
+  transform: rotate(-7deg);
   position: absolute;
 }
 #title .container-fluid{
@@ -72,16 +72,20 @@ p{
 }
 /* Sections */
 .colored-section{
-  background-color: #ff4c68;
-  color: White;
+  background-color: #ffefa0;
+  color: e8e8e8;
 }
 .white-section{
-  background-color: White;
+  background-color: #fca652;
 }
 /* Testimonials */
 
 #testimonials.colored-section{
-  background-color: #ef8172;
+  background-color: #ffd57e;
+  padding: 0 0;
+}
+.carousel-inner{
+  padding: 0 0;
 }
 .testimonial-text{
   font-size: 3rem;
@@ -134,4 +138,11 @@ p{
     position: static;
     transform: rotate(0);
   }
+}
+
+.fourth-section{
+  background-color: #ac4b1c;
+}
+.icon-sec{
+  color:white
 }
