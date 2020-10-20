@@ -79,7 +79,9 @@ p{
   background-color: #fca652;
 }
 /* Testimonials */
-
+#testimonial-carousel{
+  interval: 3000
+}
 #testimonials.colored-section{
   background-color: #ffd57e;
   padding: 0 0;
